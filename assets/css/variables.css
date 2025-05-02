@@ -1,0 +1,27 @@
+:root {
+    /* Warna Lokarea */
+    --color-primary: #023047;
+    /* Biru tua */
+    --color-secondary: #219EBC;
+    /* Biru muda */
+    --color-accent1: #FFB703;
+    /* Kuning */
+    --color-accent2: #FB8500;
+    /* Oranye */
+
+    /* Base Colors */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-text: #333333;
+
+    /* Typography */
+    --font-primary: 'Lemon Milk', sans-serif;
+    --font-heading: 'Coolvetica', sans-serif;
+    --font-body: 'TT Hoves Pro', sans-serif;
+}
+
+/* Dark Mode Variables */
+[data-theme='dark'] {
+    --color-bg: #121212;
+    --color-text: #E0E0E0;
+}

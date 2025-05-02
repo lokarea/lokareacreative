@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lokarea - Agensi Kreatif Transformasi Bisnis Anda</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Lokarea: Solusi kreatif untuk transformasi brand dan bisnis Anda">
+  <meta name="keywords" content="branding, desain, website, video produksi, sosial media">
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/iconlokarea.ico" type="image/x-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="assets/fontawesome-free-6.7.2-web/css/fontawesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Vendor CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/dark-mode.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+
+  <!-- Preload Critical Assets -->
+  <link rel="preload" href="assets/img/logolokarea.png" as="image">
+</head>
+
+<body data-scroll-container>
+  <!-- Theme Toggle -->
+  <button id="theme-toggle" class="theme-toggle-btn">
+    <span class="light-icon">☀️</span>
+    <span class="dark-icon">🌙</span>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        <img src="assets/img/logolokarea.png" alt="Lokarea Logo" style="max-height: 50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Layanan</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portofolio</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <!-- Hero Section -->
+  <header id="hero" class="hero-section" data-scroll-section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6 hero-content">
+          <h1 class="hero-title">
+            Tumbuhkan Bisnis Anda <br>
+            <span class="highlight">Tanpa Batas</span>
+          </h1>
+          <p class="hero-subtitle">
+            Kami menciptakan pengalaman kreatif yang membuat brand Anda berbicara lebih keras dari kompetitor.
+          </p>
+          <div class="hero-cta">
+            <a href="#services" class="btn btn-primary">Mulai Sekarang!</a>
+            <a href="#portfolio" class="btn btn-outline-secondary ms-3">Lihat Karya</a>
+          </div>
+        </div>
+        <div class="col-md-6 hero-visual">
+          <div class="model-container">
+            <!-- Model 3D akan ditampilkan di sini -->
+            <model-viewer src="assets/img/kotakotak.glb" alt="3D model kreatif Lokarea" auto-rotate camera-controls
+              shadow-intensity="0.5" exposure="0.5" interaction-prompt="auto" ar
+              ar-modes="webxr scene-viewer quick-look" style="width: 100%; height: 400px;">
+            </model-viewer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services-section py-5" data-scroll-section>
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="display-4 fw-bold">Solusi Kreatif Untuk Bisnis Anda</h2>
+        <p class="lead text-muted">Transformasi ide menjadi karya spektakuler</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="service-card creative-card">
+            <div class="service-icon">
+              <svg width="64" height="64" viewBox="0 0 24 24" fill="#219EBC">
+                <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+            </div>
+            <h3>Branding Killer</h3>
+            <p>Ubah brand Anda jadi magnet perhatian yang bikin kompetitor geleng-geleng</p>
+            <a href="#" class="btn btn-creative">Explore</a>
+          </div>
+        </div>
+        <!-- Tambah service cards lain -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="portfolio-section py-5" data-scroll-section>
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="display-4 fw-bold">Karya Spektakuler Kami</h2>
+        <p class="lead text-muted">Setiap project adalah cerita keberhasilan</p>
+      </div>
+      <div class="portfolio-grid row g-4">
+        <div class="col-md-4 portfolio-item">
+          <img src="placeholder-project.jpg" alt="Project">
+          <div class="portfolio-overlay">
+            <h4>Proyek Menakjubkan</h4>
+            <p>Deskripsi singkat project</p>
+            <a href="#" class="btn btn-light">Lihat Detail</a>
+          </div>
+        </div>
+        <!-- Tambah portfolio items -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonial-section py-5" data-scroll-section>
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="display-4 fw-bold">Kepuasan Klien Kami</h2>
+        <p class="lead text-muted">Mereka yang sudah merasakan magic kami</p>
+      </div>
+      <div class="testimonial-carousel">
+        <div class="testimonial-card">
+          <p>"Lokarea mengubah mimpi bisnis kami menjadi kenyataan!"</p>
+          <div class="testimonial-author">
+            <img src="client-photo.jpg" alt="Klien">
+            <div>
+              <h5>Nama Klien</h5>
+              <span>CEO Perusahaan</span>
+            </div>
+          </div>
+        </div>
+        <!-- Tambah testimonial cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR CLIENT -->
+  <!-- Partners Section - Tambahkan setelah section testimonials -->
+  <section id="partners" class="partners-section py-5" data-scroll-section>
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="display-4 fw-bold">Mitra Kami</h2>
+        <p class="lead text-muted">Brands terpercaya yang telah berkolaborasi dengan Lokarea</p>
+      </div>
+    </div>
+
+    <div class="partners-marquee-container">
+      <div class="partners-marquee">
+        <!-- Duplikat logos untuk efek infinite scroll -->
+        <div class="partners-track">
+          <!-- Logo 1 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner1.svg" alt="Partner 1" class="partner-img">
+          </div>
+          <!-- Logo 2 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner2.svg" alt="Partner 2" class="partner-img">
+          </div>
+          <!-- Logo 3 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner3.svg" alt="Partner 3" class="partner-img">
+          </div>
+          <!-- Logo 4 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner4.svg" alt="Partner 4" class="partner-img">
+          </div>
+          <!-- Logo 5 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner5.svg" alt="Partner 5" class="partner-img">
+          </div>
+          <!-- Logo 6 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner6.svg" alt="Partner 6" class="partner-img">
+          </div>
+          <!-- Logo 7 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner7.svg" alt="Partner 7" class="partner-img">
+          </div>
+          <!-- Logo 8 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner8.svg" alt="Partner 8" class="partner-img">
+          </div>
+        </div>
+
+        <!-- Duplikat untuk efek seamless -->
+        <div class="partners-track">
+          <!-- Logo 1 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner1.svg" alt="Partner 1" class="partner-img">
+          </div>
+          <!-- Logo 2 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner2.svg" alt="Partner 2" class="partner-img">
+          </div>
+          <!-- Logo 3 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner3.svg" alt="Partner 3" class="partner-img">
+          </div>
+          <!-- Logo 4 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner4.svg" alt="Partner 4" class="partner-img">
+          </div>
+          <!-- Logo 5 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner5.svg" alt="Partner 5" class="partner-img">
+          </div>
+          <!-- Logo 6 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner6.svg" alt="Partner 6" class="partner-img">
+          </div>
+          <!-- Logo 7 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner7.svg" alt="Partner 7" class="partner-img">
+          </div>
+          <!-- Logo 8 -->
+          <div class="partner-logo">
+            <img src="assets/img/partners/partner8.svg" alt="Partner 8" class="partner-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="project-starter" class="project-form-section" data-scroll-section>
+    <div class="container">
+      <div class="form-wrapper">
+        <div class="form-header">
+          <h2>Mulai Petualangan Kreatif Anda</h2>
+          <p>Transformasi ide brilian Anda menjadi karya spektakuler</p>
+        </div>
+
+        <form id="projectForm" class="creative-form">
+          <div class="form-group">
+            <input type="text" name="name" required>
+            <label>Nama Anda</label>
+          </div>
+
+          <div class="form-group">
+            <input type="email" name="email" required>
+            <label>Email Bisnis</label>
+          </div>
+
+          <div class="form-group">
+            <select name="project_type" required>
+              <option value="">Pilih Jenis Proyek</option>
+              <option value="branding">Branding Killer</option>
+              <option value="website">Website Menawan</option>
+              <option value="video">Video Produksi</option>
+              <option value="social_media">Konten Sosial Media</option>
+              <option value="other">Lainnya</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <textarea name="project_details" required></textarea>
+            <label>Ceritakan Visi Proyek Anda</label>
+          </div>
+
+          <div class="form-group budget-range">
+            <label>Perkiraan Budget (Optional)</label>
+            <input type="range" name="budget" min="0" max="100000000" step="1000000">
+            <span class="budget-display">Rp 0</span>
+          </div>
+
+          <button type="submit" class="btn-submit">
+            Mulai Petualangan Kreatif
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer - PENTING: Tambahkan data-scroll-section agar Locomotive Scroll dapat merender ini -->
+  <footer class="site-footer" data-scroll-section>
+    <div class="container">
+      <div class="row">
+        <!-- Kolom Pertama: Logo & Kontak -->
+        <div class="col-md-4">
+          <img src="assets/img/logolokarea.png" alt="Lokarea Logo" class="footer-logo">
+          <div class="contact-info">
+            <p>
+              <strong>Email:</strong> hello@lokarea.com<br>
+              <strong>Telepon:</strong> +62 812-3456-7890<br>
+              <strong>Alamat:</strong> Jakarta, Indonesia
+            </p>
+          </div>
+        </div>
+
+        <!-- Kolom Kedua: Newsletter -->
+        <div class="col-md-4">
+          <div class="newsletter-section">
+            <h4>Langganan Newsletter</h4>
+            <form id="newsletterForm">
+              <input type="email" placeholder="Email Anda" required>
+              <button type="submit">Kirim</button>
+            </form>
+          </div>
+
+          <div class="social-media">
+            <a href="#" class="instagram"><i class="fab fa-instagram"></i></i></a>
+            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="tiktok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>
+          </div>
+
+        </div>
+
+        <!-- Kolom Ketiga: Quick Links -->
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-6 footer-navigation">
+              <h4>Navigasi</h4>
+              <a href="#home">Home</a>
+              <a href="#services">Layanan</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#contact">Kontak</a>
+              <a href="#contact">Join Freelance</a>
+            </div>
+            <div class="col-6 footer-policies">
+              <h4>Kebijakan</h4>
+              <a href="/terms">Terms of Service</a>
+              <a href="/privacy">Privacy Policy</a>
+              <a href="/cookies">Cookie Policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        © 2025 Lokarea Creative. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie Consent -->
+  <div id="cookie-consent" class="cookie-banner">
+    <div class="cookie-content">
+      <p>Kami menggunakan cookies untuk meningkatkan pengalaman pengguna. Dengan melanjutkan, Anda setuju dengan
+        penggunaan cookies kami.</p>
+      <div class="cookie-buttons">
+        <button id="accept-cookies">Terima</button>
+        <button id="manage-cookies">Kelola Preferensi</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vendor Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.3/dist/locomotive-scroll.min.js"></script>
+
+  <!-- Custom Scripts -->
+  <script src="assets/js/dark-mode.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/form.js" defer></script>
+  <script src="assets/js/portfolio.js" defer></script>
+  <script src="assets/js/client.js" defer></script>
+  <script src="assets/js/script.js" defer></script>
+  <script src="assets/js/form-submission.js" defer></script>
+  <script src="assets/js/cookie-consent.js" defer></script>
+
+  <!-- Pastikan script ini ada di bagian head atau sebelum closing body tag -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+  <!-- Init Locomotive Scroll - Add inline script to initialize scroll -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Initialize Locomotive Scroll
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true,
+        smoothMobile: false,
+        inertia: 0.3
+      });
+
+      // Update scroll on window resize
+      window.addEventListener('resize', () => scroll.update());
+
+      // Force update scroll after page loads to ensure all sections are recognized
+      setTimeout(() => {
+        scroll.update();
+      }, 500);
+    });
+  </script>
+</body>
+
+</html>
