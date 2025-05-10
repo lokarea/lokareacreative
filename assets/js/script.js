@@ -100,3 +100,10 @@ document.addEventListener('mousemove', (e) => {
     duration: 0.2
   });
 });
+
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  smoothMobile: true,
+  resetNativeScroll: true
+});
