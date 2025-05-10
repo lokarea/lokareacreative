@@ -1,0 +1,87 @@
+:root {
+    /* Variabel warna dari variables.css */
+    --primary-color: #023047;
+    --secondary-color: #219EBC;
+    --accent-color: #FFB703;
+    --text-color: #333;
+    --background-color: #f8f9fa;
+}
+
+/* Services Header */
+.services-header {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin-top: 60px;
+}
+
+
+/* Service Cards */
+.service-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.service-features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.service-features li {
+    padding: 8px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.service-features li:last-child {
+    border-bottom: none;
+}
+
+.service-portfolio,
+.service-cta {
+    margin-top: 15px;
+}
+
+/* Testimonial Section */
+.testimonials {
+    background-color: var(--background-color);
+}
+
+.testimonial-swiper .swiper-slide {
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+.testimonial-swiper .swiper-slide-active {
+    opacity: 1;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .service-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Hover Effects */
+.service-card .btn-outline-primary {
+    transition: all 0.3s ease;
+}
+
+.service-card .btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
